@@ -1,4 +1,4 @@
-@media only screen and (min-width: 992px) and (max-width: 1440px){
+@media only screen and (min-width: 1200px) and (max-width: 1440px){
   .leftSection{
     position: absolute;
     top: 170px;
@@ -11,14 +11,15 @@
     align-items: center;
     justify-content: center;
     background-color: var(--Very-Light-Gray);
-    height: calc(100vh);
-    position: relative;
+    height: 800px;
+    position: absolute;
   }
   .bgIntro{
     background-image: url('../../images/bg-intro-desktop.svg');
     background-repeat: no-repeat;
     background-size:unset;
     position: absolute;
+    top: -260px;
     right: 0px;
     bottom: 0px;
     width: 800px;
@@ -37,6 +38,7 @@
     top: -125px;
     width: 47%;
     height: 1034px;
+    z-index: 1;
   }
 }
   @media only screen and (min-width : 320px) and (max-width: 480px){
