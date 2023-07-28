@@ -1,0 +1,74 @@
+
+@media only screen and (min-width: 992px) and (max-width: 1440px){
+    .footer-logo{
+        width: 100px;
+        padding-top: 50px;
+    }
+    .social a{
+        padding-top: 40px;
+        width: 15px;
+        display: flex;
+        gap: 8px;
+    }
+    .footerBtnAndReserved{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-top: 60px;
+        gap: 15px;
+    }
+    .FooterMenu{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      margin-top: 50px;
+      gap: 40px;
+    }
+
+}
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .footerBtnAndReserved{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+       
+        
+    }
+    .footerReqBtn{
+        position: relative;
+        top: 0px;
+        bottom: 200px;
+        text-align: center;
+       
+    }
+    .Allreserved{
+        position: relative;
+        top: 20px;
+    }
+    .social a{
+       
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-top: 15px;
+    }
+    .FooterMenu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        
+      }
+    .footer-logo{
+        width: 100px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        margin: 0 auto;
+        margin-top: 25px;
+    }
+}

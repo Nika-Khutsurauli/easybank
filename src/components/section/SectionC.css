@@ -1,0 +1,99 @@
+@media only screen and (min-width: 992px) and (max-width: 1440px){
+  .leftSection{
+    position: absolute;
+    top: 170px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .ngSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Very-Light-Gray);
+    height: calc(100vh);
+    position: relative;
+  }
+  .bgIntro{
+    background-image: url('../../images/bg-intro-desktop.svg');
+    background-repeat: no-repeat;
+    background-size:unset;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 800px;
+    height:880px;
+
+  }
+  .SgHeader{
+    font-size: 42px;
+  }
+  .bgMockups{
+    background-image: url('../../images/image-mockups.png');
+    background-repeat: no-repeat;
+    background-size: 100% - 60px;
+    position: absolute;
+    right: 0px;
+    top: -125px;
+    width: 47%;
+    height: 1034px;
+  }
+}
+  @media only screen and (min-width : 320px) and (max-width: 480px){
+    .ngSection{
+      background-color: var(--Very-Light-Gray);
+      position: absolute;
+      top: 0px;
+    }
+    .leftSection{
+      position: relative;
+      top: 430px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    
+    .SgHeader{
+      font-size: 30px;
+      width: 80%;
+      text-align: center;
+    }
+    .sgDesc{
+      top: 80px;
+      width: 80%;
+      font-size: 11px;
+      align-self: center;
+      text-align: center;
+      color: var(--Grayish-Blue);
+    }
+    .CoverImgs {
+      position: absolute;
+      top: 70px;
+      height: 500px;
+    }
+    .bgIntro{
+      background-image: url('../../images/bg-intro-mobile.svg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      top: -50px;
+      width: 100%;
+      height: 80%;
+    }
+    .bgMockups{
+      background-image: url('../../images/image-mockups.png');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: contain;
+      position: absolute;
+      top: -150px;
+      width: 100%;
+      height: 100%;
+    }
+
+  }

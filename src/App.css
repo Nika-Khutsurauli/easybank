@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
+
+@media only screen and (min-width: 992px) and (max-width : 1440px){
+  
+  .header-container{
+    position: relative;
+    z-index: 1;
+  }
+  
+  .section-Choose{
+    background-color: var(--Light-Grayish-Blue);
+    height: 650px;
+  }
+  
+  .section-article{
+    background-color: var(--Very-Light-Gray);
+    height: 550px;
+  }
+  
+  .section-footer{
+    background-color: var(--Dark-Blue);
+    height: 200px;
+  }
+} 
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+  .header-container{
+    position: relative;
+    z-index: 1;
+  }
+  .section-Choose{
+    background-color: var(--Light-Grayish-Blue);
+    height: 1100px;
+    position: relative;
+    top: 620px;
+  }
+  .section-article{
+    background-color: var(--Very-Light-Gray);
+    height: 1650px;
+    position: relative;
+    top: 600px;
+  }
+  .section-footer{
+    background-color: var(--Dark-Blue);
+    height: 400px;
+    position: relative;
+    top: 550px;
+  }
+}

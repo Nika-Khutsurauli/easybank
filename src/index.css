@@ -1,0 +1,36 @@
+:root{
+  /* primary color */
+  --Dark-Blue: hsl(233, 26%, 24%);
+  --Lime-Green: hsl(136, 65%, 51%);
+  --Bright-Cyan: hsl(192, 70%, 51%);
+
+  /* neutral color */
+
+  --Grayish-Blue: hsl(233, 8%, 62%);
+  --Light-Grayish-Blue: hsl(220, 16%, 96%);
+  --Very-Light-Gray: hsl(0, 0%, 98%);
+  --White: hsl(0, 0%, 100%);
+}
+
+
+*,*::after,*::before{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Public Sans', sans-serif;
+  /* background: rgb(0 100 0 / 0.1) !important; */
+}
+
+img{
+  max-width: 100%;
+}
+body {
+  font-size: 18px;
+}
+.header{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 80px;
+  padding: 12px;
+}

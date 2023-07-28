@@ -1,0 +1,38 @@
+
+@media only screen and (min-width: 992px) and (max-width: 1440px){
+    .navbar-collapse{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+    .nav-link span{
+        color: var(--Grayish-Blue);
+        padding: 29px 0px;
+        text-decoration: none;
+        font-size: 14px;
+        border-bottom: 3px solid transparent;
+    }
+    .nav-link span:hover {
+        border-bottom: 3px solid var(--Lime-Green);
+    }
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    .navbar-collapse{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: var(--White);
+        gap: 10px;
+        margin-top: 30px;
+        padding: 20px 0px;
+        border-radius: 5px;
+        box-shadow: 0px 350px 350px 20px black;
+    }
+   
+}
