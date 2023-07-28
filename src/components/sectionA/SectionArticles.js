@@ -12,5 +12,16 @@ let data = datas.map(function (element) {
   );
 });
 export default function SectionArticles() {
-  return <div className="sectionArticle">{data}</div>;
+  return (
+    <section>
+      <div className="section-article container-fluid">
+        <div className="container">
+          <h1 className="text-center text-sm-start text-md-start h1 py-5">
+            Latest articles
+          </h1>
+          <div className="sectionArticle">{data}</div>
+        </div>
+      </div>
+    </section>
+  );
 }

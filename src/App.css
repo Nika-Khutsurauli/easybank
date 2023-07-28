@@ -9,24 +9,27 @@
   
   .section-Choose{
     background-color: var(--Light-Grayish-Blue);
-    height: 650px;
+    height: 600px;
     position: relative;
-    top: 600px;
+    top: 650px;
     z-index: 0;
+    display: flex;
+    align-items: center;
   }
   
   .section-article{
     background-color: var(--Very-Light-Gray);
-    height: 550px;
+    height: 600px;
     position: relative;
-    top: 600px;
+    top: 500px;
+    display: flex;
   }
   
   .section-footer{
     background-color: var(--Dark-Blue);
     height: 200px;
     position: relative;
-    top: 600px;
+    top: 450px;
   }
 } 
 
@@ -37,20 +40,23 @@
   }
   .section-Choose{
     background-color: var(--Light-Grayish-Blue);
-    height: 1100px;
+    height: 100%;
     position: relative;
-    top: 620px;
-  }
+    top: 750px;
+    padding-bottom: 50px;
+    }
   .section-article{
     background-color: var(--Very-Light-Gray);
-    height: 1650px;
+    height: 100%;
     position: relative;
-    top: 600px;
+    top:800px;
+    padding-bottom: 80px;
   }
   .section-footer{
     background-color: var(--Dark-Blue);
-    height: 400px;
+    height: 100%;
     position: relative;
-    top: 550px;
+    top: 800px;
+    padding-bottom: 20px;
   }
 }

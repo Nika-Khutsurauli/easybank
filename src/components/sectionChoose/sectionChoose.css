@@ -1,26 +1,31 @@
 @media only screen and (min-width: 1200px) and (max-width: 1440px){
     .mainC{
         display: flex;
+        align-items: center;
+        position: absolute;
     }
     .ChooseMain{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-top: 170px;
-        
+        position: relative;
+        top: 170px;
     }
     .ChooseHead{
-        font-size: 24px;
+        font-size: 32px;
         text-align: left;
     }
     .ChooseText{
-        font-size: 12px;
-        width: 40%;
+        font-size: 18px;
+        width: 60%;
         text-align: left;
+        padding-top: 10px;
+    }
+    .ChooseContent{       
+        width: 280px;
     }
     .image {
-        width: 50px;
-        padding-top: 40px;
+        width: 60px;
     }
     .title{
         font-size: 16px;
@@ -34,9 +39,7 @@
     }
 }
 @media only screen and (min-width: 320px) and (max-width: 480px){
-    .mainC{
-        margin-top: 20px;
-    }
+   
     .ChooseMain{
         display: flex;
         flex-direction: column;
@@ -46,11 +49,11 @@
         
     }
     .ChooseHead{
-        font-size: 28px;
+        font-size: 42px;
         text-align: center;
     }
     .ChooseText{
-        font-size: 12px;
+        font-size: 14px;
         width: 80%;
         text-align: center;
     }
@@ -62,16 +65,16 @@
         margin-top: 20px;
     }
     .image {
-        width: 60px;
+        width: 50px;
     }
     .title{
-        font-size: 16px;
+        font-size: 17px;
         padding-top: 20px;
         text-align: center;
     }
     .desciption{
         text-align: center;
-        font-size: 12px;
+        font-size: 16px;
         color: var(--Grayish-Blue);
         width: 90%;
     }

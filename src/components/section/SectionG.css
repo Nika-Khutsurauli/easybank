@@ -21,9 +21,8 @@
     position: absolute;
     top: -260px;
     right: 0px;
-    bottom: 0px;
     width: 800px;
-    height:880px;
+    height:930px;
 
   }
   .SgHeader{
@@ -37,7 +36,7 @@
     right: 0px;
     top: -125px;
     width: 47%;
-    height: 1034px;
+    height: 100vw;
     z-index: 1;
   }
 }
@@ -45,11 +44,12 @@
     .ngSection{
       background-color: var(--Very-Light-Gray);
       position: absolute;
+      height: 100%;
       top: 0px;
     }
     .leftSection{
       position: relative;
-      top: 430px;
+      top: 400px;
       left: 0px;
       right: 0px;
       bottom: 0px;
@@ -60,22 +60,22 @@
     }
     
     .SgHeader{
-      font-size: 30px;
+      font-size: 38px;
+      font-weight: 400;
       width: 80%;
       text-align: center;
     }
     .sgDesc{
-      top: 80px;
-      width: 80%;
-      font-size: 11px;
-      align-self: center;
+      width: 100%;
+      font-size: 14px;
       text-align: center;
       color: var(--Grayish-Blue);
+      padding-top: 10px;
     }
     .CoverImgs {
       position: absolute;
-      top: 70px;
-      height: 500px;
+      top: 0px;
+      height: 540px;
     }
     .bgIntro{
       background-image: url('../../images/bg-intro-mobile.svg');
@@ -83,9 +83,9 @@
       background-position: center;
       background-repeat: no-repeat;
       position: relative;
-      top: -50px;
+      top: -100px;
       width: 100%;
-      height: 80%;
+      height: 100%;
     }
     .bgMockups{
       background-image: url('../../images/image-mockups.png');
@@ -93,7 +93,7 @@
       background-position: center;
       background-size: contain;
       position: absolute;
-      top: -150px;
+      top: -175px;
       width: 100%;
       height: 100%;
     }

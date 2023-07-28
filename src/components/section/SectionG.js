@@ -1,7 +1,7 @@
 import React from "react";
 import RequestBtn from "../buttons/RequestBtn";
-import "./SectionC.css";
-export default function SectionC() {
+import "./SectionG.css";
+export default function SectionG() {
   return (
     <div className="ngSection container-fluid p-0">
       <section className="container p-0">
