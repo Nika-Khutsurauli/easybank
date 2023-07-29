@@ -1,35 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap');
 
-@media only screen and (min-width: 1200px) and (max-width : 1440px){
+@media only screen and (min-width: 1200px){
   
   .header-container{
     position: relative;
     z-index: 10;
+    height: 100%;
   }
-  
+  .ngSection{
+    background-color: var(--Very-Light-Gray);
+    position: relative;
+    top: 0px;
+    height: 630px;
+  }
   .section-Choose{
     background-color: var(--Light-Grayish-Blue);
-    height: 600px;
+    height: 650px;
     position: relative;
-    top: 650px;
+    top: 0px;
     z-index: 0;
-    display: flex;
-    align-items: center;
   }
   
   .section-article{
     background-color: var(--Very-Light-Gray);
     height: 600px;
     position: relative;
-    top: 500px;
-    display: flex;
+    top: 0px;
+
   }
   
   .section-footer{
     background-color: var(--Dark-Blue);
     height: 200px;
     position: relative;
-    top: 450px;
+    top: 0px;
+    display: flex;
+    align-items: center;
   }
 } 
 
@@ -37,26 +43,33 @@
   .header-container{
     position: relative;
     z-index: 1;
+    height: 100%;
+  }
+  .ngSection{
+    background-color: var(--Very-Light-Gray);
+    position: relative;
+    top: 0px;
+    height: 650px;
   }
   .section-Choose{
     background-color: var(--Light-Grayish-Blue);
     height: 100%;
     position: relative;
-    top: 750px;
-    padding-bottom: 50px;
+    top: 630px;
+    padding-bottom: 30px;
     }
   .section-article{
     background-color: var(--Very-Light-Gray);
     height: 100%;
     position: relative;
-    top:800px;
+    top:630px;
     padding-bottom: 80px;
   }
   .section-footer{
     background-color: var(--Dark-Blue);
     height: 100%;
     position: relative;
-    top: 800px;
+    top: 630px;
     padding-bottom: 20px;
   }
 }

@@ -1,15 +1,17 @@
-@media only screen and (min-width: 1200px) and (max-width: 1440px){
+@media only screen and (min-width: 1200px){
     .mainC{
         display: flex;
         align-items: center;
         position: absolute;
+        top: 0px;
     }
     .ChooseMain{
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        position: relative;
-        top: 170px;
+        position: absolute;
+        top: 100px;
+        
     }
     .ChooseHead{
         font-size: 32px;
@@ -23,6 +25,8 @@
     }
     .ChooseContent{       
         width: 280px;
+        position: relative;
+        top: 300px;
     }
     .image {
         width: 60px;

@@ -14,14 +14,12 @@ let datas = data.map(function (element) {
 });
 function SectionChoose() {
   return (
-    <section>
-      <div className="section-Choose container-fluid">
-        <div className="container">
-          <SectionChooseHead />
-          <div className="mainC">{datas}</div>
-        </div>
+    <div className="section-Choose container-fluid">
+      <div className="container">
+        <SectionChooseHead />
+        <div className="mainC">{datas}</div>
       </div>
-    </section>
+    </div>
   );
 }
 

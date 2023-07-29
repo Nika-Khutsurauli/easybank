@@ -1,5 +1,5 @@
 
-@media only screen and (min-width: 1200px) and (max-width: 1440px){
+@media only screen and (min-width: 1200px){
     .navbar-collapse{
         display: flex;
         justify-content: center;
@@ -27,12 +27,13 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        height: 250px;
         background-color: var(--White);
         gap: 10px;
         margin-top: 30px;
         padding: 20px 0px;
         border-radius: 5px;
-        box-shadow: 10px 100px 300px 20px gray;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 130px 70px 100px;
     }
    
 }
